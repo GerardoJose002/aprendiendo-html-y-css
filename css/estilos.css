@@ -170,3 +170,8 @@ body {
     flex-direction: column;
 
 }
+
+
+.carrucel-item__details:hover {
+    opacity: 1;
+}
