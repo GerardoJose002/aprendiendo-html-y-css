@@ -107,3 +107,41 @@ body {
 ::placeholder {
     color: white;
 }
+
+.carrucel {
+    width: 100%;
+    overflow: scroll;
+    padding: 30px;
+    position: relative;
+}
+
+.carrucel__container {
+    white-space: nowrap;
+    margin: 70px;
+    padding-bottom:10px ;
+}
+
+.carrucel__item {
+    background-color: thistle;
+    width: 200px;
+    height: 250px;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-right: 10px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 450ms all;
+    transform-origin: center left;
+}
+
+.carrucel__item:hover ~ .carrucel__item:hover {
+    transform: translate3d(100px, 0px, 0px);
+}
+
+.carrucel__container:hover .carrucel__item {
+    opacity: 0.3;
+}
+.carrucel__container:hover .carrucel__item:hover {
+    transform: scale(1.5);
+    opacity: 1;
+}
