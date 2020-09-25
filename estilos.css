@@ -1,18 +1,2 @@
-body {
-    margin: 0;
-}
-
-.header {
-    width: 100%;
-    height: 80px;
-    background-color: #ee74e1;
-background-image: linear-gradient(33deg, #ee74e1 0%, #665cc7 100%);
-
-
-
-}
-
-header img {
-   width: 200px;
-   margin: 10px;
-}
+body{margin:0}.header{width:100%;height:80px;background-color:#ee74e1;background-image:linear-gradient(33deg, #ee74e1 0%, #665cc7 100%)}header img{width:200px;margin:10px}
+/*# sourceMappingURL=estilos.css.map */
